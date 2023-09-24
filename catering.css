@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{box-sizing: border-box; font-family: "Times New Roman", Georgia,serif; margin: 0px;}
+div.header{width:100%;overflow: hidden;position: -webkit-sticky;position: sticky; top: 0px;border-bottom: inset;background-color: rgb(255,255,255);z-index: 1; }
+div a{ color:rgb(120,120,120); text-decoration: none; font-size: 17px; }
+div span{float:right; direction: ltr;}
+div a, div span{padding: 10px;margin: 5px;}
+div a.ADE{float: left;}
+div a:hover{background-color:rgb(220,220,220); }
+div.rel{position: relative;text-align: center;}
+div h2{top: 85%;left: 2%;position:absolute;font-size: 3.0vw;color:rgb(120,120,120); }
+div img{z-index: -1; width: 100%;margin:0px;}
+div.sect{width: 80%; margin: 20px auto;}
+h3.cater,h3.menu,h3.act,h6{color: rgb(70,70,70);}
+h3.cater,h3.menu{font-size: 2.5vw; text-align: center;}
+h6{font-size: 1vw;text-align: center;margin-top: 5px;}
+section img, section p, section h3{width: 50%; padding: 30px; float: left;}
+img.about,img.content{opacity: 0.75;}
+div p{font-size: 1.5vw; text-align:justify;line-height: 30px;}
+span.nal{display: inline;padding: 0px;margin: 0px;float: none;background-color:rgb(220,220,220);color: black; }
+.nal{color:rgb(120,120,120); }
+hr{background-color:rgb(253,253,25); }
+#content{margin-top: 50px;}
+h3.menu{width: 100%;}
+div.content{width: 50%; float: left;}
+div.content div{padding: 40px 0px;}
+div.snacks h4, div.snacks p {width: auto;text-align: justify; }
+div.snacks h4{font-size: 1.5vw;margin-bottom: 5px;color:rgb(50,50,50);letter-spacing: 2px; }
+div.snacks p{padding: 0px;color:rgb(120,120,120);font-size: 1.4vw; }
+h3.act{text-align: left;font-size: 2.5vw;width: 100%;}
+#contact{text-align:justify-all;}
+section#Contact  h3,section#Contact  p, section#Contact  h5{display: block;width: 100%;}
+section#Contact h4{text-align: left;padding: 0px 30px;font-size: 1.5vw;color:rgb(50,90,120);}
+.sola{color: rgb(50,90,120);font-style: italic;font-weight: bold;padding: 3px;}
+form{width: 100%;}
+input{width: 90%;border-bottom: 1px solid color:rgb(120,120,120);border-left: none;border-right: none;border-top: none;padding: 10px;margin: 2%; }
+button {padding: 10px; margin-top: 20px;cursor: pointer;margin-left: 2%;}
+footer{width: 100%; background-color:rgb(220,220,220);text-align: center;font-size: 2vw; padding: 30px;margin-top: 70px;color: rgb(70,70,70);}
+footer span{color: rgb(50,90,120);}
